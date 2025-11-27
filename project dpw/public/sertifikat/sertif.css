@@ -1,0 +1,105 @@
+@media print {
+
+    body,
+    html {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        margin: 0;
+    }
+
+    @page {
+        size: A4 landscape;
+        margin: 0;
+    }
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 297mm;
+    height: 210mm;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sertifikat-box {
+    width: 90%;
+    height: 90%;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo-bulat {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-bulat img {
+    height: 70px;
+    width: 70px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.sertifikat-box h1 {
+    font-size: 36px;
+    margin: 50px 0 10px;
+    color: #f1db34;
+}
+
+.sertifikat-box h2 {
+    font-size: 24px;
+    margin: 4px 0;
+    color: #303f9f;
+}
+
+.pemisah {
+    width: 200px;
+    border: none;
+    border-top: 2px solid #ccc;
+    margin: 4px auto;
+}
+
+#instansi {
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+.sertifikat-box p {
+    margin: 6px 0;
+    font-size: 16px;
+}
+
+.nilai {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1a237e;
+}
+
+.tanggal {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #555;
+}

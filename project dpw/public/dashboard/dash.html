@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TOEFL Zone - Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="dash.css">
+</head>
+
+<body>
+  <nav>
+
+    <div class="logo">
+      <img src="../../assets/images/logo.png" alt="Logo" />
+      <span>TOEFL Zone</span>
+    </div>
+
+    <div class="nav-buttons">
+      <button onclick="navigate('../beranda/index.html')">Beranda</button>
+      <button onclick="navigate('../dashboard/dash.html')">Dashboard</button>
+      <button onclick="navigate('../latihan/latihan.html')">Mode Latihan</button>
+      <button onclick="navigate('../test/tes.html')">Mulai Tes</button>
+    </div>
+
+  </nav>
+
+  <div class="container">
+    <section>
+      <h2>Data Pengguna</h2>
+      <div class="info-card">
+        <div class="card"><strong>Nama</strong><span id="nama"></span></div>
+        <div class="card"><strong>Email</strong><span id="email"></span></div>
+        <div class="card"><strong>Universitas/Sekolah</strong><span id="univ"></span></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Riwayat Tes TOEFL</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Tanggal</th>
+            <th>Listening</th>
+            <th>Reading</th>
+            <th>Structure</th>
+            <th>Skor</th>
+            <th>Aksi</th>
+          </tr>
+        </thead>
+        <tbody id="riwayatTable"></tbody>
+      </table>
+    </section>
+
+    <section id="edit-profil-section">
+      <h2>Masukkan Profil</h2>
+      <form id="editForm">
+        <label for="editNama">Nama</label>
+        <input type="text" id="editNama" required />
+        <label for="editEmail">Email</label>
+        <input type="email" id="editEmail" required />
+        <label for="editUniv">Universitas/Sekolah</label>
+        <input type="text" id="editUniv" required />
+        <button type="submit">Simpan Perubahan</button>
+      </form>
+    </section>
+  </div>
+
+  <script src="dash.js"></script>
+</body>
+
+</html>

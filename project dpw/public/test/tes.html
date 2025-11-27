@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TOEFL Zone - Listening Test</title>
+    <link rel="stylesheet" href="tes.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="../../assets/images/logo.png" alt="">
+            <span>TOEFL Zone</span>
+            <span class="divider"></span>
+            <span id="user-info"></span>
+        </div>
+        <div class="nav-buttons">
+            <button onclick="navigate('../beranda/index.html')">Beranda</button>
+            <button onclick="navigate('../dashboard/dash.html')">Dashboard</button>
+            <button onclick="navigate('../latihan/latihan.html')">Mode Latihan</button>
+            <button onclick="navigate('../test/tes.html')">Mulai Tes</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="timer" id="timer"></div>
+
+        <div id="intro-listening-section" class="section active">
+            <div class="intro">
+                <h2>Instructions for Listening Section</h2> <br>
+                <p>You will listen to a number of audio questions. Each question can only be played once.</p>
+                <p>The duration of the Listening Section is <strong> 30 minutes.</strong> Click the button below to
+                    start.</p><br>
+                <button class="start-btn" onclick="startSection('listening')">Start Listening</button>
+            </div>
+        </div>
+
+        <div id="example-listening-section" class="section">
+            <div class="question" id="example-listening-question-container"></div>
+            <div class="navigation-buttons">
+                <button class="btn" onclick="nextExample('listening')">Next</button>
+            </div>
+        </div>
+
+        <div id="test-listening-section" class="section">
+            <div class="question" id="listening-question-container"></div>
+            <div class="navigation-buttons">
+                <button class="btn" onclick="prevQuestion('listening')">Previous</button>
+                <button class="btn" onclick="nextQuestion('listening')">Next</button>
+            </div>
+        </div>
+
+        <div id="intro-structure-section" class="section">
+            <div class="intro">
+                <h2>Instructions for Structure Section</h2> <br>
+                <p>You will work on 40 multiple-choice questions about sentence structure and grammar.</p>
+                <p>The duration of the Structure Section is <strong>25 minutes.</strong> Click the button below to
+                    start.</p> <br>
+                <button class="start-btn" onclick="startSection('structure')">Start Structure Section</button>
+            </div>
+        </div>
+
+        <div id="example-structure-section" class="section">
+            <div class="question1" id="example-structure-question-container"></div>
+            <div class="navigation-buttons1">
+                <button class="btn" onclick="nextExample('structure')">Next</button>
+            </div>
+        </div>
+
+        <div id="test-structure-section" class="section">
+            <div class="question1" id="structure-question-container"></div>
+            <div class="navigation-buttons1">
+                <button class="btn" onclick="prevQuestion('structure')">Previous</button>
+                <button class="btn" onclick="nextQuestion('structure')">Next</button>
+            </div>
+        </div>
+
+        <div id="intro-reading-section" class="section">
+            <div class="intro">
+                <h2>Instructions for Reading Section</h2> <br>
+                <p>You will work on 40 questions based on reading texts.</p>
+                <p>The duration of the Reading Section is <strong>35 minutes.</strong> Click the button below to start.
+                </p> <br>
+                <button class="start-btn" onclick="startSection('reading')">Start Reading Section</button>
+            </div>
+        </div>
+
+        <div id="example-reading-section" class="section">
+            <div class="question2" id="example-reading-question-container"></div>
+            <div class="navigation-buttons2">
+                <button class="btn" onclick="nextExample('reading')">Next</button>
+            </div>
+        </div>
+
+        <div id="test-reading-section" class="section">
+            <div class="question2" id="reading-question-container"></div>
+            <div class="navigation-buttons2">
+                <button class="btn" onclick="prevQuestion('reading')">Previous</button>
+                <button class="btn" onclick="nextQuestion('reading')">Next</button>
+            </div>
+        </div>
+
+        <div class="score-display" id="score-section" style="display:none">
+            <div class="intro">
+                <h2>Hasil Tes TOEFL</h2> <br>
+                <p>Skor Benar Listening : <span id="correct-listening-score"></span> dari <span
+                        id="total-listening-questions"></span></p>
+                <p>Skor Benar Structure : <span id="correct-structure-score"></span> dari <span
+                        id="total-structure-questions"></span></p>
+                <p>Skor Benar Reading : <span id="correct-reading-score"></span> dari <span
+                        id="total-reading-questions"></span></p>
+                <h3>Skor TOEFL (Konversi) : <span id="converted-score"></span></h3> <br>
+                <button class="start-btn" onclick="navigate('../dashboard/dash.html')">Kembali ke Dashboard</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="tes.js"></script>
+</body>
+
+</html>
