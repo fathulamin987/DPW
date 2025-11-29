@@ -1,5 +1,18 @@
 # Project DPW - TOEFL ZONE
 
+## Toefl Zone
+<table>
+  <tr>
+    <td align="center" width="150">
+      <img src="./assets/images/logo.png" alt="Logo Project DPW" width="120" />
+    </td>
+    <td>
+      <h1>Project DPW</h1>
+      <h3>TOEFL PREDICTION TEST</h3>
+      <p>Platform Pelatihan dan Simulasi Ujian TOEFL Berbasis Web.</p>
+    </td>
+  </tr>
+</table>
 ## Struktur Direktori
 
 Berikut adalah struktur folder proyek ini untuk memberikan gambaran mengenai organisasi file:
