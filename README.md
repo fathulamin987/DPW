@@ -7,10 +7,9 @@
     <td>
       <h1>Project DPW</h1>
       <h3>TOEFL PREDICTION TEST</h3>
-      <p>Platform Pelatihan dan Simulasi Ujian TOEFL Berbasis Web.</p>
+      <p>Platform Pelatihan dan Simulasi Ujian TOEFL Berbasis Web.</p><br>
     </td>
   </tr>
-  <br>
 </table>
 
 ## Tim Pengembang
