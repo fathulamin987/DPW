@@ -19,7 +19,7 @@
   <tr>
     <td align="center">
       <a href="https://github.com/fathulamin987">
-        <img src="anggota/amin.jpeg" width="100px" alt="Amin" style="border-radius: 50%;" />
+        <img src="project dpw/anggota/amin.jpeg" width="100px" alt="Amin" style="border-radius: 50%;" />
       </a>
       <br />
       <sub><b>Amin</b></sub>
