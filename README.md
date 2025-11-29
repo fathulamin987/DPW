@@ -4,7 +4,7 @@
 <table>
   <tr>
     <td align="center" width="150">
-      <img src="peoject dpw/assets/images/logo.png" alt="Logo Project DPW" width="120" />
+      <img src="https://raw.githubusercontent.com/fathulamin987/DPW/main/project%20dpw/assets/images/logo.png" alt="Logo" width="120" />
     </td>
     <td>
       <h1>Project DPW</h1>
