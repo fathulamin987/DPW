@@ -12,7 +12,9 @@
       <p>Platform Pelatihan dan Simulasi Ujian TOEFL Berbasis Web.</p>
     </td>
   </tr>
+  <br>
 </table>
+
 ## Struktur Direktori
 
 Berikut adalah struktur folder proyek ini untuk memberikan gambaran mengenai organisasi file:
