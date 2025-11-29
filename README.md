@@ -5,7 +5,7 @@
 Berikut adalah struktur folder proyek ini untuk memberikan gambaran mengenai organisasi file:
 
 ```text
-project-dpw/
+project dpw/
 │
 ├── assets/               
 │   ├── audio/
