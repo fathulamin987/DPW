@@ -1,11 +1,11 @@
-# Project DPW - TOEFL ZONE
+# Project DPW
 <table>
   <tr>
     <td align="center" width="150">
       <img src="https://raw.githubusercontent.com/fathulamin987/DPW/main/project%20dpw/assets/images/logo.png" alt="Logo" width="120" />
     </td>
     <td>
-      <h1>Project DPW</h1>
+      <h1>TOEFL ZONE</h1>
       <h3>TOEFL PREDICTION TEST</h3>
       <p>Platform Pelatihan dan Simulasi Ujian TOEFL Berbasis Web.</p><br>
     </td>
