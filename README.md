@@ -45,37 +45,41 @@
 
 Berikut adalah struktur folder proyek ini untuk memberikan gambaran mengenai organisasi file:
 
-```text
 project dpw/
 │
-├── assets/               
-│   ├── audio/
-│   │   ├── latihan/     
-│   │   └── test/           
-│   └── images/             
+├── anggota/                 
+│   ├── amin.jpeg
+│   ├── firdanuzula.jpeg
+│   └── habiba.jpeg
 │
-└── public/                 
-    ├── beranda/           
+├── assets/                
+│   ├── audio/
+│   │   ├── latihan/      
+│   │   └── test/            
+│   └── images/              
+│
+└── public/                  
+    ├── beranda/            
     │   ├── index.html
     │   ├── beranda.css
     │   └── beranda.js
     │
-    ├── dashboard/         
+    ├── dashboard/          
     │   ├── dash.html
     │   ├── dash.css
     │   └── dash.js
     │
-    ├── latihan/           
+    ├── latihan/            
     │   ├── latihan.html
     │   ├── latihan.css
     │   └── latihan.js
     │
-    ├── test/               
+    ├── test/                
     │   ├── tes.html
     │   ├── tes.css
     │   └── tes.js
     │
-    └── sertifikat/       
+    └── sertifikat/        
         ├── sertif.html
         ├── sertif.css
         └── sertif.js
