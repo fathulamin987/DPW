@@ -26,7 +26,7 @@
     </td>
     <td align="center">
       <a href="https://github.com/firdanuzula">
-        <img src="anggota/firda.jpeg" width="100px" alt="Firda" style="border-radius: 50%;" />
+        <img src="anggota/firdanuzula.jpeg" width="100px" alt="Firda" style="border-radius: 50%;" />
       </a>
       <br />
       <sub><b>Firda</b></sub>
