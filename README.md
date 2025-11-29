@@ -13,6 +13,34 @@
   <br>
 </table>
 
+## Tim Pengembang
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/fathulamin987">
+        <img src="anggota/amin.jpeg" width="100px" alt="Amin" style="border-radius: 50%;" />
+      </a>
+      <br />
+      <sub><b>Amin</b></sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/USERNAME-FIRDA">
+        <img src="anggota/firda.jpeg" width="100px" alt="Firda" style="border-radius: 50%;" />
+      </a>
+      <br />
+      <sub><b>Firda</b></sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/USERNAME-HABIBA">
+        <img src="anggota/habiba.jpeg" width="100px" alt="Habiba" style="border-radius: 50%;" />
+      </a>
+      <br />
+      <sub><b>Habiba</b></sub>
+    </td>
+  </tr>
+</table>
+
 ## Struktur Direktori
 
 Berikut adalah struktur folder proyek ini untuk memberikan gambaran mengenai organisasi file:
