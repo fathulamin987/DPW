@@ -25,7 +25,7 @@
       <sub><b>Amin</b></sub>
     </td>
     <td align="center">
-      <a href="https://github.com/USERNAME-FIRDA">
+      <a href="https://github.com/firdanuzula">
         <img src="anggota/firda.jpeg" width="100px" alt="Firda" style="border-radius: 50%;" />
       </a>
       <br />
