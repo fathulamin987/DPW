@@ -45,6 +45,7 @@
 
 Berikut adalah struktur folder proyek ini untuk memberikan gambaran mengenai organisasi file:
 
+```bash
 project dpw/
 │
 ├── anggota/                 
