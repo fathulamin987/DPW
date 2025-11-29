@@ -32,7 +32,7 @@
       <sub><b>Firda</b></sub>
     </td>
     <td align="center">
-      <a href="https://github.com/USERNAME-HABIBA">
+      <a href="https://github.com/NURHABIBATULUMAH">
         <img src="anggota/habiba.jpeg" width="100px" alt="Habiba" style="border-radius: 50%;" />
       </a>
       <br />
